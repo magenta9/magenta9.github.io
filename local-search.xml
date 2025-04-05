@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>软件系统如何优化</title>
+    <link href="/2025/04/05/%E8%BD%AF%E4%BB%B6%E7%B3%BB%E7%BB%9F%E5%A6%82%E4%BD%95%E4%BC%98%E5%8C%96/"/>
+    <url>/2025/04/05/%E8%BD%AF%E4%BB%B6%E7%B3%BB%E7%BB%9F%E5%A6%82%E4%BD%95%E4%BC%98%E5%8C%96/</url>
+    
+    <content type="html"><![CDATA[<p>一个程序的性能优化大致包括以下方法：</p><ol><li>缓存：缓存的思路很简单，将计算结果存储用于下次直接使用。缓存无处不在，从本地缓存、CDN缓存、Redis缓存到池化技术、buffer Pool等等都是典型例子；</li><li>算法与数据结构：通过使用更高效的算法与数据结构来成倍的提升系统处理效率。最熟悉的莫过于快速排序跟链表；</li><li>使用更低级别的接口：有的时候从编程语言、系统调用、编译器优化、其他依赖库等方面来能够直接提升程序性能；</li><li>批量化：在IO场景下这个技术非常重要；</li><li>并行化：在计算密集场景下多核或者集群并行很有效；</li><li>接受不精确：很多时候我们的需求不要求那么实时。就像分布式理论所揭示的，我们其实对一致性要求没有那么高，其他也一样；</li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>note</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>软件工程</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>如何做出伟大的工作</title>
     <link href="/2025/04/04/%E5%A6%82%E4%BD%95%E5%81%9A%E5%87%BA%E4%BC%9F%E5%A4%A7%E7%9A%84%E5%B7%A5%E4%BD%9C/"/>
     <url>/2025/04/04/%E5%A6%82%E4%BD%95%E5%81%9A%E5%87%BA%E4%BC%9F%E5%A4%A7%E7%9A%84%E5%B7%A5%E4%BD%9C/</url>
@@ -25,19 +50,6 @@
       <tag>好奇心</tag>
       
     </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>My First Post</title>
-    <link href="/2025/04/04/My-First-Post/"/>
-    <url>/2025/04/04/My-First-Post/</url>
-    
-    <content type="html"><![CDATA[<p>第一篇博客，用来验证部署流程。</p>]]></content>
-    
-    
     
   </entry>
   
